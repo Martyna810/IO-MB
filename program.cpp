@@ -9,14 +9,11 @@ long long silnia (int n) {
 int main(){
 int x;
 cin >> x;
-<<<<<<< HEAD
 cout << silnia(x) << endl;
-=======
 if (x<0) {
 cout << "Wprowadzono liczbe ujemna" << endl;
 return 1;
 }
-cout << x << endl;
->>>>>>> sprawdzenie
+cout << silnia(x)<<endl;
 return 0;
 }
